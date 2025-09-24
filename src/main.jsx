@@ -12,10 +12,13 @@ import HomePage from './pages/HomePage.jsx';
 import Footer from './features/homePage/footer/footer.jsx';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage.jsx';
 import CompanyPolicyPage from './pages/CompanyPolicyPage.jsx';
+import Header from './features/header/Header.jsx';
 createRoot(document.getElementById('root')).render(
 
     <BrowserRouter>
+     <Header/>
       <Routes>
+       
         <Route path="/" element={<HomePage/>} />
       <Route path="/privacy-policy" element={<PrivacyPolicyPage/>} />
       <Route path="/company-policy" element={<CompanyPolicyPage/>} />

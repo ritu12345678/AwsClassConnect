@@ -133,7 +133,7 @@ const Header = () => {
                         Why Us
                     </a>
                     <a href="#signup" className="btn btn-primary btn-sm">
-                        Request Demo
+                        Contact Us
                     </a>
                 </nav>
             </div>
