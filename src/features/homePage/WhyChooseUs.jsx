@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
                                         style={{ height: "50px", width: "auto", }}
                                         className="me-2"
                                     />
-                                    <span className="fw-400 fs-4 text-capitalize">Delhi Public School</span>
+                                    <span className="fw-400 fs-5 text-capitalize">DELHI PUBLIC SCHOOL</span>
                                 </div>
 
                                 {/* Ryan International Logo & Name */}
@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
                                         style={{ height: "50px", width: "auto" }}
                                         className="me-2"
                                     />
-                                    <span className="fw-400 fs-4">RYAN</span>
+                                    <span className="fw-400 fs-5">RYAN</span>
                                 </div>
                                 <img
                                     src={school2Logo}
