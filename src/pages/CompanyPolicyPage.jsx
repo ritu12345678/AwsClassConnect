@@ -1,5 +1,5 @@
 import React from 'react'
-import CompanyPolicy from '../features/homePage/footer/CompanyPolicy'
+import CompanyPolicy from '../features/footer/component/CompanyPolicy'
 
 const CompanyPolicyPage = () => {
   return (

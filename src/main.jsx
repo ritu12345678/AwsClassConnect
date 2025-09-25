@@ -9,10 +9,12 @@ import './index.scss'
 import App from './App.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './pages/HomePage.jsx';
-import Footer from './features/homePage/footer/footer.jsx';
+import Footer from './features/footer/Index.jsx';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage.jsx';
 import CompanyPolicyPage from './pages/CompanyPolicyPage.jsx';
 import Header from './features/header/Header.jsx';
+import TermsAndConditionPage from './pages/TermsAndConditionPage.jsx';
+import DisclaimerPage from './pages/DisclaimerPage.jsx';
 createRoot(document.getElementById('root')).render(
 
     <BrowserRouter>
@@ -22,6 +24,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<HomePage/>} />
       <Route path="/privacy-policy" element={<PrivacyPolicyPage/>} />
       <Route path="/company-policy" element={<CompanyPolicyPage/>} />
+       <Route path="/disclaimer" element={<DisclaimerPage/>} />
+        <Route path="/terms-condition" element={<TermsAndConditionPage/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerImage from "../../assets/bannerImage.png"
+import bannerImage from "../../assets/bannerImage.jpg"
 const Banner = () => {
     return (
 
@@ -19,7 +19,7 @@ const Banner = () => {
 
             </div>
             <div className=''>
-             <img src={bannerImage}  style={{ height: "25rem", paddingTop: "7rem",width:"40rem" }} />
+             <img src={bannerImage}  style={{ height: "25rem", paddingTop: "7rem",width:"35rem" }} />
             </div>
         </section>
     )

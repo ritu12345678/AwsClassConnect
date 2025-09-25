@@ -1,5 +1,8 @@
 import React from "react";
-
+import dpsLogo from "../../assets/dpsLogo.svg"
+import school2Logo from "../../assets/school2Logo.png"
+import school3Logo from "../../assets/school3Logo.png"
+import ryanLogo from "../../assets/ryanLogo.png"
 const WhyChooseUs = () => {
     return (<>
         <div className="container">
@@ -8,14 +11,56 @@ const WhyChooseUs = () => {
                     <section id="whychoose" className="py-5 bg-light ">
                         <div className="container text-start">
                             <h2 className="fw-bold mb-4 text-start">Why Choose Us</h2>
-                            <ul className="list-unstyled fs-4 fw-300">
-                                <li className="mb-2 ">✅ Save Time</li>
-                                <li className="mb-2">✅ Reduce Manual Errors</li>
-                                <li className="mb-2">✅ Boost Parent Engagement</li>
+                            <ul className="list-unstyled fs-4 fw-light">
+                                <li className="mb-2">
+                                    <span className="text-danger fs-20 fw-bold">✔</span>Save Time
+                                </li>
+                                <li className="mb-2">
+                                    <span className="text-danger fs-20 fw-bold">✔</span> Reduce Manual Errors
+                                </li>
+                                <li className="mb-2">
+                                    <span className="text-danger fs-20 fw-bold">✔</span> Boost Parent Engagement
+                                </li>
                             </ul>
                             <h2 className="mt-3 fw-bold">
                                 Trusted by 20+ Schools
                             </h2>
+                            <div className="d-flex align-items-center flex-wrap">
+                                {/* DPS Logo & Name */}
+                                <div className="d-flex align-items-center me-3 mb-3">
+                                    <img
+                                        src={dpsLogo}
+                                        alt="Delhi Public School"
+                                        style={{ height: "50px", width: "auto", }}
+                                        className="me-2"
+                                    />
+                                    <span className="fw-400 fs-4 text-capitalize">Delhi Public School</span>
+                                </div>
+
+                                {/* Ryan International Logo & Name */}
+                                <div className="d-flex align-items-center me-3 mb-3">
+                                    <img
+                                        src={ryanLogo}
+                                        alt="Ryan International School"
+                                        style={{ height: "50px", width: "auto" }}
+                                        className="me-2"
+                                    />
+                                    <span className="fw-400 fs-4">RYAN</span>
+                                </div>
+                                <img
+                                    src={school2Logo}
+                                    alt="Ryan International School"
+                                    style={{ height: "50px", width: "auto" }}
+                                    className="me-3 mb-3"
+                                />
+                                <img
+                                    src={school3Logo}
+                                    alt="Ryan International School"
+                                    style={{ height: "50px", width: "auto" }}
+                                    className="me-2 mb-3"
+                                />
+                                {/* Add more school logos here in the same format */}
+                            </div>
                         </div>
                     </section>
                 </div>

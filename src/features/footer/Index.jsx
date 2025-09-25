@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="row">
           {/* Company Info */}
           <div className="col-md-4 mb-4">
-            <h5 className="fw-bold">ClassConnect</h5>
+            <h5 className="fw-bold">ClassConnect EduTech Pvt Ltd.</h5>
             <p>
               A complete school management platform to automate fee collection,
               manage student records, and improve parent engagement.
@@ -18,10 +18,10 @@ const Footer = () => {
           <div className="col-md-2 mb-4">
             <h6 className="fw-bold">Quick Links</h6>
             <ul className="list-unstyled">
-              <li><Link to ="privacy-policy" className="text-white text-decoration-none">Privacy Policy</Link></li>
-              <li><Link to ="company-policy" className="text-white text-decoration-none">Company Policy</Link></li>
-              <li><a href="#signup" className="text-white text-decoration-none">Request Demo</a></li>
-              <li><a href="#contact" className="text-white text-decoration-none">Contact</a></li>
+              <li><Link to="/privacy-policy" className="text-white text-decoration-none">Privacy Policy</Link></li>
+              <li><Link to="/company-policy" className="text-white text-decoration-none">Company Policy</Link></li>
+              <li><Link to="/disclaimer" className="text-white text-decoration-none">Disclaimer</Link></li>
+              <li><Link to="/terms-condition" className="text-white text-decoration-none">Terms And Condition</Link></li>
             </ul>
           </div>
 
