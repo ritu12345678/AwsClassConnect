@@ -49,6 +49,7 @@ const WhyChooseUs = () => {
                                 </div>
                                 <img
                                     src={school2Logo}
+                                
                                     alt="Ryan International School"
                                     style={{ height: "50px", width: "auto" }}
                                     className="me-3 mb-3"
