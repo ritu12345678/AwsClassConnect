@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-dark text-white pt-5 pb-3">
@@ -18,17 +19,44 @@ const Footer = () => {
           <div className="col-md-2 mb-4">
             <h6 className="fw-bold">Quick Links</h6>
             <ul className="list-unstyled">
-              <li><Link to="/privacy-policy" className="text-white text-decoration-none">Privacy Policy</Link></li>
-              <li><Link to="/company-policy" className="text-white text-decoration-none">Company Policy</Link></li>
-              <li><Link to="/disclaimer" className="text-white text-decoration-none">Disclaimer</Link></li>
-              <li><Link to="/terms-condition" className="text-white text-decoration-none">Terms And Condition</Link></li>
+              <li>
+                <Link to="/privacy-policy" className="text-white text-decoration-none">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link to="/company-policy" className="text-white text-decoration-none">
+                  Company Policy
+                </Link>
+              </li>
+              <li>
+                <Link to="/disclaimer" className="text-white text-decoration-none">
+                  Disclaimer
+                </Link>
+              </li>
+              <li>
+                <Link to="/terms-condition" className="text-white text-decoration-none">
+                  Terms And Condition
+                </Link>
+              </li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div className="col-md-3 mb-4">
             <h6 className="fw-bold">Contact Us</h6>
-            <p className="mb-1">📍 123, EduTech Street, New Delhi, India</p>
+            <p className="mb-1">
+              📍 C-2316, Gaur City-2, 12th Avenue
+            </p>
+            <p className="mb-1">
+              PO: Roza Yakubpur, DIST: Gautam Buddha Nagar
+            </p>
+            <p className="mb-1">
+              Greater Noida West, Sec-16C
+            </p>
+            <p className="mb-1">
+              Uttar Pradesh - 201009
+            </p>
             <p className="mb-1">📞 +91 (977)355-2592</p>
             <p>✉️ support@classconnect.com</p>
           </div>
