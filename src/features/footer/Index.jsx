@@ -58,7 +58,7 @@ const Footer = () => {
               Uttar Pradesh - 201009
             </p>
             <p className="mb-1">📞 +91 (977)355-2592</p>
-            <p>✉️ support@classconnect.com</p>
+            <p>✉️ support@classconect.com</p>
           </div>
 
           {/* Social Media */}
